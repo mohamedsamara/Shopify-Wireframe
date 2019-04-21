@@ -583,6 +583,68 @@ button[type='reset'] {
 }
 /* end banner slider styles */
 
+/* start promotion styles */
+.promotion {
+  position: relative;
+  width: 60%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.promotion .btn-link {
+  margin: 40px 0px;
+}
+
+.promotion-box {
+  position: relative;
+  margin: 40px 0px;
+}
+
+.promotion-banner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+.promotion-banner .banner {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.banner h5 {
+  margin: 0;
+}
+/* end promotion styles */
+
+/* start timer styles */
+#promotion-timer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#promotion-timer > div > span {
+  padding: 10px;
+  color: #c52743;
+  font-size: 100px;
+}
+/* end timer styles */
+
 /* start products banner styles */
 .products-title {
   text-align: center;
@@ -664,6 +726,15 @@ button[type='reset'] {
 
   .locations {
     flex-direction: column;
+  }
+
+  #promotion-timer,
+  .promotion-banner {
+    flex-direction: column;
+  }
+
+  #promotion-timer > div > span {
+    font-size: 25px;
   }
 }
 
