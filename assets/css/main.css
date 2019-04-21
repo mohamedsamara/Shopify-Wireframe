@@ -455,6 +455,51 @@ button[type='reset'] {
 }
 /* end location styles */
 
+/* start banner styles */
+.banner-section {
+  position: relative;
+  padding: 10px;
+}
+
+.banner-section h3 {
+  margin: 0px;
+}
+
+.banner-caption {
+  width: 80%;
+  height: 50%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  right: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-link {
+  cursor: pointer;
+  min-width: 30%;
+  text-align: center;
+  padding: 10px;
+  color: #c52743 !important;
+  background-color: #fff;
+  border: 1px solid #c52743 !important;
+  text-transform: uppercase;
+}
+
+.btn-link:hover {
+  color: #fff !important;
+  background-color: #c52743;
+}
+/* end banner styles */
+
 /* start responsive styles*/
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 768px) {
