@@ -513,6 +513,66 @@ button[type='reset'] {
 }
 /* end banner styles */
 
+/* start products banner styles */
+.products-title {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.products-title h2 {
+  margin: 10px 0px;
+}
+
+.products-title p {
+  width: 30%;
+  margin: 0px auto;
+}
+
+.products-banner .btn-box {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.products-content {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.product-box {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+}
+
+.product-box img {
+  cursor: pointer;
+}
+
+.product-box img:hover {
+  opacity: 0.8;
+}
+
+.product-box:hover h1 {
+  opacity: 1;
+}
+
+.product-box h1 {
+  font-size: 1.25rem;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  right: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #c52743;
+  margin: 10px 0px 3px;
+}
+/* end products banner styles */
+
 /* start responsive styles*/
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 768px) {
