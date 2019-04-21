@@ -309,4 +309,157 @@ h6 {
 :-ms-input-placeholder {
   color: #aaa;
 }
+
+/* start input text styles */
+input,
+input[type='text'],
+input[type='password'] {
+  padding: 10px;
+  border: 1px solid #cccccc40;
+  cursor: text;
+}
+
+input:focus,
+input[type='text']:focus,
+input[type='password']:focus {
+  outline: none;
+  color: #ccc;
+  border-color: #cccccc;
+}
+/* end input text styles */
+
+/* start input button styles */
+input[type='button'],
+input[type='submit'],
+input[type='reset'],
+button[type='submit'],
+button[type='reset'] {
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* end input button styles */
+
+.application {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* end layout styles */
+
+/* start footer styles */
+.footer {
+  background-color: #fff;
+  border-top: 1px solid #cccccc40;
+}
+
+.footer .footer-content {
+  flex-shrink: 0;
+  width: 100%;
+  color: #fff;
+  padding: 25px 0px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .footer-block {
+  text-align: center;
+  width: 100%;
+}
+
+.footer-list-group li {
+  padding-bottom: 10px;
+}
+
+.subscribe-form button[type='submit'] {
+  border: 1px solid #d41a2b7d;
+  background-color: #fff;
+  color: #d41a2b7d;
+  min-width: 20%;
+}
+
+.footer-bottom {
+  border-top: 1px solid #cccccc40;
+  padding: 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom ul li {
+  display: inline-block;
+  padding: 10px 5px 0px 0px;
+  color: #cccccc40;
+}
+/* end footer styles */
+
+/* start responsive styles*/
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+  .footer .footer-content {
+    flex-direction: column;
+  }
+
+  .footer .footer-block {
+    margin: 10px 0px;
+  }
+
+  .subscribe-form input[type='text'] {
+    width: 70%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* end responsive styles*/
