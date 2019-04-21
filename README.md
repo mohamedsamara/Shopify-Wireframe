@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a mockup translation for an ecommerce landing page. Mockup is translated into a clean HTML code, neat CSS styles, Vanilla JavaScript for banner slider & Timer.
+This mockup is a translation for an ecommerce landing page. Mockup is translated into a clean HTML code, neat CSS styles, simple Vanilla JavaScript for banner slider & Countdown timer.
 
 * Land page content
   * Top Header
