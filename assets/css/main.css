@@ -841,6 +841,10 @@ button[type='reset'] {
   .menu-box {
     width: 100%;
   }
+
+  .products-content{
+    flex-direction: column
+  }
 }
 
 /* Small devices (tablets, 768px and up) */

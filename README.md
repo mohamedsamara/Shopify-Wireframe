@@ -4,6 +4,8 @@
 
 This mockup is a translation for an ecommerce landing page. Mockup is translated into a clean HTML code, neat CSS styles, simple Vanilla JavaScript for banner slider & Countdown timer.
 
+![Shopify Wireframe](/assets/images/Node-Amazon-Storefront.gif)
+
 * Land page content
   * Top Header
   * Header includes navigation menu & other links
