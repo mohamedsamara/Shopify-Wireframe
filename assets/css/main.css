@@ -368,6 +368,19 @@ button[type='reset'] {
 
 /* end layout styles */
 
+/* start top header styles */
+.top-header {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.top-header a {
+  margin: 5px;
+}
+/* end top header styles */
+
 /* start footer styles */
 .footer {
   background-color: #fff;
