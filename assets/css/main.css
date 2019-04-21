@@ -842,8 +842,8 @@ button[type='reset'] {
     width: 100%;
   }
 
-  .products-content{
-    flex-direction: column
+  .products-content {
+    flex-direction: column;
   }
 }
 
