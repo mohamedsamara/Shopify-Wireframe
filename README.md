@@ -17,8 +17,8 @@ This is a mockup translation for an ecommerce landing page. Mockup is translated
 
 ## Languages & tools
 
-- [HTML]
+* HTML
 
-- [CSS]
+* CSS
 
-- [JavaScript]
+* JavaScript
